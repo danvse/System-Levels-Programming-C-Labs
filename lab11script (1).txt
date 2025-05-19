@@ -1,0 +1,107 @@
+Script started on Tue 08 Apr 2025 03:02:23 PM EDT
+]0;elin11@gsuad.gsu.edu@snowball:~ [?1034h[elin11@gsuad.gsu.edu@snowball ~]$ cat lab11.c
+#include <stdio.h>
+
+#define MAX_STUDENTS 50
+#define SUBJECTS 5
+//structure defining for students
+struct student {
+    char name[50];        
+    int rollNo;          
+    float marks[SUBJECTS]; 
+};
+
+int main() {
+//setting the values to 0 to set up for initilization and defining the characters as integers
+    struct student students[MAX_STUDENTS];
+    float totalMarks[MAX_STUDENTS] = {0};
+    float averageMarks[MAX_STUDENTS] = {0};
+    int numStudents;
+    float classAverage = 0.0;
+    int topStudentIndex = 0;
+    int lowStudentIndex = 0;
+
+    printf("Enter the number of students in the class: ");
+    scanf("%d", &numStudents);
+//loops so it asks for number of students and based on the amount given, repeatly asks for name and roll number
+    for (int i = 0; i < numStudents; i++) {
+        printf("Enter name: ");
+        scanf(" %[^\n]", students[i].name);
+        printf("Enter roll number: ");
+        scanf("%d", &students[i].rollNo);
+//loop to imput 5 grades for each subject assignment
+        for (int j = 0; j < SUBJECTS; j++) {
+            float grade;
+            do {
+                printf("Enter marks for Subject %d: ", j + 1);
+                scanf("%f", &grade);
+            } while (grade < 0 || grade > 100);
+
+            students[i].marks[j] = grade;
+            totalMarks[i] += grade;
+        }
+//operation to calculate grade given subject assignment
+        averageMarks[i] = totalMarks[i] / SUBJECTS;
+
+        if (averageMarks[i] > averageMarks[topStudentIndex]) {
+            topStudentIndex = i;
+        }
+        if (averageMarks[i] < averageMarks[lowStudentIndex]) {
+            lowStudentIndex = i;
+        }
+
+        classAverage += averageMarks[i];
+    }
+
+    classAverage /= numStudents;
+//print for visualization of the marks and output
+    printf("\n%-20s %-10s %-15s %-15s\n", "Name", "Roll No", "Total Marks", "Average");
+
+    for (int i = 0; i < numStudents; i++) {
+        printf("%-20s %-10d %-15.1f %-15.2f\n", students[i].name, students[i].rollNo, totalMarks[i], averageMarks[i]);
+    }
+
+    printf("\nClass Average: %.2f\n", classAverage);
+    printf("\nHighest Grade: %s (Roll No: %d) - Average: %.2f\n",
+           students[topStudentIndex].name,
+           students[topStudentIndex].rollNo,
+           averageMarks[topStudentIndex]);
+
+    printf("Lowest Grade: %s (Roll No: %d) - Average: %.2f\n",
+           students[lowStudentIndex].name,
+           students[lowStudentIndex].rollNo,
+           averageMarks[lowStudentIndex]);
+
+    return 0;
+}
+
+]0;elin11@gsuad.gsu.edu@snowball:~ [elin11@gsuad.gsu.edu@snowball ~]$ ./[K[Kg[K gcc lab11.c -o lab11 -stdc99
+]0;elin11@gsuad.gsu.edu@snowball:~ [elin11@gsuad.gsu.edu@snowball ~]$ ./lab11
+Enter the number of students in the class: 2
+Enter name: Dan
+Enter roll number: 1
+Enter marks for Subject 1: 1
+Enter marks for Subject 2: 2
+Enter marks for Subject 3: 3
+Enter marks for Subject 4: 4
+Enter marks for Subject 5: 5
+Enter name: 6 Dude
+Enter roll number: 2
+Enter marks for Subject 1: 0
+Enter marks for Subject 2: 9
+Enter marks for Subject 3: 8
+Enter marks for Subject 4: 7
+Enter marks for Subject 5: 6
+
+Name                 Roll No    Total Marks     Average        
+Dan                  1          15.0            3.00           
+Dude                 2          30.0            6.00           
+
+Class Average: 4.50
+
+Highest Grade: Dude (Roll No: 2) - Average: 6.00
+Lowest Grade: Dan (Roll No: 1) - Average: 3.00
+]0;elin11@gsuad.gsu.edu@snowball:~ [elin11@gsuad.gsu.edu@snowball ~]$ exit
+exit
+
+Script done on Tue 08 Apr 2025 03:03:13 PM EDT

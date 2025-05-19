@@ -1,0 +1,60 @@
+Script started on Tue 01 Apr 2025 02:49:26 PM EDT
+]0;elin11@gsuad.gsu.edu@snowball:~ [?1034h[elin11@gsuad.gsu.edu@snowball ~]$ cat lab10.c
+#include <stdio.h>
+#include <string.h>
+// compares str1 and str2, and replaces str of str1 if str2 is found
+void StringCompare(char str[], const char* str1, const char* str2) {
+    char temp[1024];
+    int i = 0, j = 0;
+    int str1Len = strlen(str1);
+    int str2Len = strlen(str2);
+//uses copy to replace replace the string from one location to another based on the location of our str pointer
+    while (str[i] != '\0') {
+        if (strncmp(&str[i], str1, str1Len) == 0) {
+            strcpy(&temp[j], str2);
+            j += str2Len;
+            i += str1Len;
+        } else {
+            temp[j] = str[i];
+            i++;
+            j++;
+        }
+    }
+    temp[j] = '\0';
+    strcpy(str, temp);
+}
+
+int main() {
+    char str[1024], str1[100], str2[100];
+
+    printf("Enter the string: ");
+    scanf("%[^\n]", str);
+    getchar();
+
+    printf("Enter the string to replace: ");
+    scanf("%[^\n]", str1);
+    getchar();
+
+    printf("Enter the string to replace with: ");
+    scanf("%[^\n]", str2);
+
+    printf("-----------------------\n");
+    printf("%s\n", str);
+    StringCompare(str, str1, str2);
+    printf("%s\n", str);
+
+    return 0;
+}
+
+]0;elin11@gsuad.gsu.edu@snowball:~ [elin11@gsuad.gsu.edu@snowball ~]$ gcc lab10.c -o lab10 -std=c99
+]0;elin11@gsuad.gsu.edu@snowball:~ [elin11@gsuad.gsu.edu@snowball ~]$ ./lab10
+Enter the string: i It is fun to program in PASCAL Language
+Enter the string to replace: PASCAL
+Enter the string to replace with: C
+-----------------------
+It is fun to program in PASCAL Language
+It is fun to program in C Language
+]0;elin11@gsuad.gsu.edu@snowball:~ [elin11@gsuad.gsu.edu@snowball ~]$ exit
+exit
+
+Script done on Tue 01 Apr 2025 02:50:10 PM EDT

@@ -1,0 +1,58 @@
+Script started on Tue 25 Mar 2025 02:47:21 PM EDT
+]0;elin11@gsuad.gsu.edu@snowball:~ [?1034h[elin11@gsuad.gsu.edu@snowball ~]$ cat lab9.c
+#include <stdio.h>
+#include <string.h>
+
+#define length 21 
+
+int main() {
+//initialize the strings
+    char word[length];
+    char smallest[length]; 
+    char largest[length]; 
+//user input
+    printf("Enter word: ");
+    scanf("%20s", word);
+//comparing the strings based on ascii value
+    strcpy(smallest, word);
+    strcpy(largest, word);
+//creates a loop to repeat asking for word input if the user input is not 4 characters, and if it is 4 characters, it exits the loop
+    while (strlen(word) != 4) {
+        printf("Enter word: ");
+        scanf("%20s", word);
+
+        if (strlen(word) == 4) {
+            break;
+        }
+//compares the current inputted word with the word that we store previous in the first iteration, and take the smaller word based on ascii value of the character. Same logic for largest.
+        if (strcmp(word, smallest) < 0) {
+            strcpy(smallest, word);
+        }
+
+        if (strcmp(word, largest) > 0) {
+            strcpy(largest, word);
+        }
+    }
+//results
+    printf("\nSmallest word: %s\n", smallest);
+    printf("Largest word: %s\n", largest);
+
+    return 0;
+}
+
+]0;elin11@gsuad.gsu.edu@snowball:~ [elin11@gsuad.gsu.edu@snowball ~]$ gcc lab9.c -o lab9 -std=c99
+]0;elin11@gsuad.gsu.edu@snowball:~ [elin11@gsuad.gsu.edu@snowball ~]$ ./lab9
+Enter word: dog
+Enter word: zebra
+Enter word: rabbit
+Enter word: catfish
+Enter word: walrush 
+Enter word: cat
+Enter word: fish
+
+Smallest word: cat
+Largest word: zebra
+]0;elin11@gsuad.gsu.edu@snowball:~ [elin11@gsuad.gsu.edu@snowball ~]$ exit
+exit
+
+Script done on Tue 25 Mar 2025 02:48:16 PM EDT
