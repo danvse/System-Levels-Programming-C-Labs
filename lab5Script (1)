@@ -1,0 +1,45 @@
+Script started on Tue 18 Feb 2025 02:55:33 PM EST
+]0;elin11@gsuad.gsu.edu@snowball:~ [?1034h[elin11@gsuad.gsu.edu@snowball ~]$ cat lab5.c
+#include <stdio.h>
+
+int main() {
+    int month_days, begining_of_month;
+    int i;
+    int today = 1;
+    
+    printf("Enter number of days in month: ");
+    scanf("%d", &month_days);
+    printf("Enter starting day of the week (1=Sun, 7=Sat): ");
+    scanf("%d", &begining_of_month);
+    printf("Your requested month’s calendar is:\n");
+for (i = 1; i < begining_of_month; i++) { 
+	printf("   "); } 
+for (i=begining_of_month; i <=7; i++) {
+	if (today <= month_days){ 
+		printf("%3d ", today++);
+	}
+}
+printf("\n");
+while (today <= month_days){
+for (i=1; i<=7 && today <= month_days; i++) {
+	printf("%3d ", today++);
+}
+printf("\n");
+}
+    return 0;
+}
+
+]0;elin11@gsuad.gsu.edu@snowball:~ [elin11@gsuad.gsu.edu@snowball ~]$ gcc lab5.c -o lab5
+]0;elin11@gsuad.gsu.edu@snowball:~ [elin11@gsuad.gsu.edu@snowball ~]$ ./lab5
+Enter number of days in month: 31
+Enter starting day of the week (1=Sun, 7=Sat): 3
+Your requested month’s calendar is:
+        1   2   3   4   5 
+  6   7   8   9  10  11  12 
+ 13  14  15  16  17  18  19 
+ 20  21  22  23  24  25  26 
+ 27  28  29  30  31 
+]0;elin11@gsuad.gsu.edu@snowball:~ [elin11@gsuad.gsu.edu@snowball ~]$ exit
+exit
+
+Script done on Tue 18 Feb 2025 02:56:33 PM EST

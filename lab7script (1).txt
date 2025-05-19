@@ -1,0 +1,46 @@
+Script started on Tue 04 Mar 2025 03:12:51 PM EST
+]0;elin11@gsuad.gsu.edu@snowball:~ [?1034h[elin11@gsuad.gsu.edu@snowball ~]$ cat lab7.c
+#include <stdio.h>
+
+void f(int a[], int n) {
+    int i, j, min_idx, temp;
+    for (i = 0; i < n - 1; i++) {
+        min_idx = i;
+        for (j = i + 1; j < n; j++) {
+            if (a[j] < a[min_idx]) {
+                min_idx = j;
+            }
+        }
+        temp = a[min_idx];
+        a[min_idx] = a[i];
+        a[i] = temp;
+    }
+}
+
+int main() {
+    int n;
+    printf("How many integers: ");
+    scanf("%d", &n);
+    printf("Enter %d integers: ", n);
+    int a[n];
+    for (int i = 0; i < n; i++) {
+	scanf("%d", &a[i]);
+    }
+    f(a, n);
+    printf("Sorted Array: ");
+    for (int i = 0; i < n; i++) {
+	printf("%d ", a[i]);
+    }
+    return 0;
+}
+
+]0;elin11@gsuad.gsu.edu@snowball:~ [elin11@gsuad.gsu.edu@snowball ~]$ -gcc lab7.c -o lab7 -std=c99
+]0;elin11@gsuad.gsu.edu@snowball:~ [elin11@gsuad.gsu.edu@snowball ~]$ lab7
+bash: lab7: command not found
+]0;elin11@gsuad.gsu.edu@snowball:~ [elin11@gsuad.gsu.edu@snowball ~]$ ./lab7
+How many integers: 12
+Enter 12 integers: 10 3 34 21 13 10 13 9 20 39 45 68
+Sorted Array: 3 9 10 10 13 13 20 21 34 39 45 68 ]0;elin11@gsuad.gsu.edu@snowball:~ [elin11@gsuad.gsu.edu@snowball ~]$ exit
+exit
+
+Script done on Tue 04 Mar 2025 03:14:27 PM EST
