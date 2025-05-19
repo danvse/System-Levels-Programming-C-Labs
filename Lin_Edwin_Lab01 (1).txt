@@ -1,0 +1,558 @@
+Script started on Tue 21 Jan 2025 03:17:35 PM EST
+]0;elin11@gsuad.gsu.edu@snowball:~[?1034h[elin11@gsuad.gsu.edu@snowball ~]$ mkdir cd[Ksc 3320
+]0;elin11@gsuad.gsu.edu@snowball:~[elin11@gsuad.gsu.edu@snowball ~]$ cd csc3320
+bash: cd: csc3320: No such file or directory
+]0;elin11@gsuad.gsu.edu@snowball:~[elin11@gsuad.gsu.edu@snowball ~]$ cat csc 3320
+cat: csc: Is a directory
+cat: 3320: Is a directory
+]0;elin11@gsuad.gsu.edu@snowball:~[elin11@gsuad.gsu.edu@snowball ~]$ mk d[K[Kdir cc[K[K3320
+mkdir: cannot create directory ‘3320’: File exists
+]0;elin11@gsuad.gsu.edu@snowball:~[elin11@gsuad.gsu.edu@snowball ~]$ mkdir csc [K3320
+]0;elin11@gsuad.gsu.edu@snowball:~[elin11@gsuad.gsu.edu@snowball ~]$ cd csc3320
+]0;elin11@gsuad.gsu.edu@snowball:~/csc3320[elin11@gsuad.gsu.edu@snowball csc3320]$ pwd
+/home/elin11/csc3320
+]0;elin11@gsuad.gsu.edu@snowball:~/csc3320[elin11@gsuad.gsu.edu@snowball csc3320]$ e[Kcatcaty[K[K[K[K elin11_song.txt
+cat: elin11_song.txt: No such file or directory
+]0;elin11@gsuad.gsu.edu@snowball:~/csc3320[elin11@gsuad.gsu.edu@snowball csc3320]$ mkdir elin11_song./tx[K[K[Ktxt
+]0;elin11@gsuad.gsu.edu@snowball:~/csc3320[elin11@gsuad.gsu.edu@snowball csc3320]$ cd [K[K[Kcat elin11_song./[Ktxt
+cat: elin11_song.txt: Is a directory
+]0;elin11@gsuad.gsu.edu@snowball:~/csc3320[elin11@gsuad.gsu.edu@snowball csc3320]$ cat elin11_song.txt
+cat: elin11_song.txt: Is a directory
+]0;elin11@gsuad.gsu.edu@snowball:~/csc3320[elin11@gsuad.gsu.edu@snowball csc3320]$ lls
+bash: lls: command not found
+]0;elin11@gsuad.gsu.edu@snowball:~/csc3320[elin11@gsuad.gsu.edu@snowball csc3320]$ ls
+[0m[38;5;27melin11_song.txt[0m
+]0;elin11@gsuad.gsu.edu@snowball:~/csc3320[elin11@gsuad.gsu.edu@snowball csc3320]$ mv elin11_song.txt csc3320_user[K[K[K[Kelin11_song.txt
+]0;elin11@gsuad.gsu.edu@snowball:~/csc3320[elin11@gsuad.gsu.edu@snowball csc3320]$ man echo
+[?1049h[?1h=ECHO(1)                                             User Commands                                             ECHO(1)[m
+[m
+[1mNAME[0m[m
+       echo - display a line of text[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mecho[0m [[4mSHORT-OPTION[24m]... [[4mSTRING[24m]...[m
+       [1mecho[0m [4mLONG-OPTION[24m[m
+[m
+[1mDESCRIPTION[0m[m
+       Echo the STRING(s) to standard output.[m
+[m
+       [1m-n[0m     do not output the trailing newline[m
+[m
+       [1m-e[0m     enable interpretation of backslash escapes[m
+[m
+       [1m-E[0m     disable interpretation of backslash escapes (default)[m
+[m
+       [1m--help[0m display this help and exit[m
+[m
+       [1m--version[0m[m
+              output version information and exit[m
+[m
+       If [1m-e[0m is in effect, the following sequences are recognized:[m
+[m
+       \\     backslash[m
+[m
+       \a     alert (BEL)[m
+[m
+[7m Manual page echo(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page echo(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page echo(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       \b     backspace[m
+[7m Manual page echo(1) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HMECHO(1)                                             User Commands                                             ECHO(1)[m
+[30;1H[K[7m Manual page echo(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page echo(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page echo(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       \b     backspace[m
+[7m Manual page echo(1) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page echo(1) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       \c     produce no further output[m
+[7m Manual page echo(1) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page echo(1) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       \e     escape[m
+[7m Manual page echo(1) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page echo(1) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       \f     form feed[m
+[7m Manual page echo(1) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page echo(1) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       \n     new line[m
+[7m Manual page echo(1) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page echo(1) line 13 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       \r     carriage return[m
+[7m Manual page echo(1) line 14 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page echo(1) line 15 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       \t     horizontal tab[m
+[7m Manual page echo(1) line 16 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page echo(1) line 17 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       \v     vertical tab[m
+[7m Manual page echo(1) line 18 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page echo(1) line 19 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       \0NNN  byte with octal value NNN (1 to 3 digits)[m
+[7m Manual page echo(1) line 20 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page echo(1) line 21 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       \xHH   byte with hexadecimal value HH (1 to 2 digits)[m
+[7m Manual page echo(1) line 22 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page echo(1) line 23 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       NOTE:  your  shell  may  have  its  own  version of echo, which usually supersedes the version described here.[m
+[7m Manual page echo(1) line 24 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Please refer to your shell's documentation for details about the options it supports.[m
+[7m Manual page echo(1) line 25 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page echo(1) line 26 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       GNU  coreutils  online  help:  <http://www.gnu.org/software/coreutils/>  Report  echo  translation   bugs   to[m
+[7m Manual page echo(1) line 27 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       <http://translationproject.org/team/>[m
+[7m Manual page echo(1) line 28 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page echo(1) line 29 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mAUTHOR[0m[m
+[7m Manual page echo(1) line 30 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Written by Brian Fox and Chet Ramey.[m
+[7m Manual page echo(1) line 31 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page echo(1) line 32 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mCOPYRIGHT[0m[m
+[7m Manual page echo(1) line 33 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Copyright   ©   2013   Free   Software   Foundation,  Inc.   License  GPLv3+:  GNU  GPL  version  3  or  later[m
+[7m Manual page echo(1) line 34 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       <http://gnu.org/licenses/gpl.html>.[m
+[7m Manual page echo(1) line 35 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       This is free software: you are free to change and redistribute it.  There is NO WARRANTY, to the  extent  per‐[m
+[7m Manual page echo(1) line 36 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       mitted by law.[m
+[7m Manual page echo(1) line 37 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page echo(1) line 38 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mSEE[0m [1mALSO[0m[m
+[7m Manual page echo(1) line 39 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       The full documentation for [1mecho[0m is maintained as a Texinfo manual.  If the [1minfo[0m and [1mecho[0m programs are properly[m
+[7m Manual page echo(1) line 40 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       installed at your site, the command[m
+[7m Manual page echo(1) line 41 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page echo(1) line 42 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              [1minfo[0m [1mcoreutils[0m [1m'echo[0m [1minvocation'[0m[m
+[7m Manual page echo(1) line 43 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page echo(1) line 44 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       should give you access to the complete manual.[m
+[7m Manual page echo(1) line 45 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page echo(1) line 46 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[KGNU coreutils 8.22                                  November 2020                                             ECHO(1)[m
+[7m Manual page echo(1) line 47 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page echo(1) line 47/77 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page echo(1) line 47/77 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page echo(1) line 47/77 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page echo(1) line 47/77 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page echo(1) line 47/77 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page echo(1) line 47/77 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page echo(1) line 47/77 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page echo(1) line 47/77 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page echo(1) line 47/77 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page echo(1) line 47/77 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page echo(1) line 47/77 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page echo(1) line 47/77 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page echo(1) line 47/77 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page echo(1) line 47/77 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page echo(1) line 47/77 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page echo(1) line 47/77 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page echo(1) line 47/77 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page echo(1) line 47/77 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page echo(1) line 47/77 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page echo(1) line 47/77 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page echo(1) line 47/77 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page echo(1) line 47/77 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page echo(1) line 47/77 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       \v     vertical tab[m
+[30;1H[K[7m Manual page echo(1) line 46/77 95% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[30;1H[K[7m Manual page echo(1) line 45/77 95% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page echo(1) line 46/77 95% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[KGNU coreutils 8.22                                  November 2020                                             ECHO(1)[m
+[7m Manual page echo(1) line 47/77 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page echo(1) line 47/77 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page echo(1) line 47/77 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page echo(1) line 47/77 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page echo(1) line 47/77 (END) (press h for help or q to quit)[27m[K[K[HM       \v     vertical tab[m
+[HM[m
+[HM       \t     horizontal tab[m
+[HM[m
+[HM       \r     carriage return[m
+[HM[m
+[HM       \n     new line[m
+[HM[m
+[HM       \f     form feed[m
+[HM[m
+[HM       \e     escape[m
+[HM[m
+[HM       \c     produce no further output[m
+[HM[m
+[HM       \b     backspace[m
+[HM[m
+[HM       \a     alert (BEL)[m
+[HM[m
+[HM       \\     backslash[m
+[HM[m
+[HM       If [1m-e[0m is in effect, the following sequences are recognized:[m
+[HM[m
+[HM              output version information and exit[m
+[HM       [1m--version[0m[m
+[HM[m
+[HM       [1m--help[0m display this help and exit[m
+[HM[m
+[HM       [1m-E[0m     disable interpretation of backslash escapes (default)[m
+[HM[m
+[30;1H[K[7m Manual page echo(1) line 18/77 44% (press h for help or q to quit)[27m[K[K[HM       [1m-e[0m     enable interpretation of backslash escapes[m
+[HM[m
+[HM       [1m-n[0m     do not output the trailing newline[m
+[HM[m
+[HM       Echo the STRING(s) to standard output.[m
+[HM[1mDESCRIPTION[0m[m
+[HM[m
+[HM       [1mecho[0m [4mLONG-OPTION[24m[m
+[HM       [1mecho[0m [[4mSHORT-OPTION[24m]... [[4mSTRING[24m]...[m
+[HM[1mSYNOPSIS[0m[m
+[HM[m
+[HM       echo - display a line of text[m
+[HM[1mNAME[0m[m
+[HM[m
+[HMECHO(1)                                             User Commands                                             ECHO(1)[m
+[30;1H[K[7m Manual page echo(1) line 1/77 35% (press h for help or q to quit)[27m[K[K[K[7m Manual page echo(1) line 1/77 35% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page echo(1) line 1/77 35% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page echo(1) line 1/77 35% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page echo(1) line 1/77 35% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page echo(1) line 1/77 35% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page echo(1) line 1/77 35% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page echo(1) line 1/77 35% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       \b     backspace[m
+[7m Manual page echo(1) line 4/77 36% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page echo(1) line 5/77 36% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       \c     produce no further output[m
+[7m Manual page echo(1) line 6/77 38% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page echo(1) line 7/77 38% (press h for help or q to quit)[27m[K[H[2J[H[m
+[1mSYNOPSIS[0m[m
+       [1mecho[0m [[4mSHORT-OPTION[24m]... [[4mSTRING[24m]...[m
+       [1mecho[0m [4mLONG-OPTION[24m[m
+[m
+[1mDESCRIPTION[0m[m
+       Echo the STRING(s) to standard output.[m
+[m
+       [1m-n[0m     do not output the trailing newline[m
+[m
+       [1m-e[0m     enable interpretation of backslash escapes[m
+[m
+       [1m-E[0m     disable interpretation of backslash escapes (default)[m
+[m
+       [1m--help[0m display this help and exit[m
+[m
+       [1m--version[0m[m
+              output version information and exit[m
+[m
+       If [1m-e[0m is in effect, the following sequences are recognized:[m
+[m
+       \\     backslash[m
+[m
+       \a     alert (BEL)[m
+[m
+       \b     backspace[m
+[m
+       \c     produce no further output[m
+[m
+       \e     escape[m
+[7m Manual page echo(1) line 7/77 39% (press h for help or q to quit)[27m[K[H[2J[H[m
+[1mSYNOPSIS[0m[m
+       [1mecho[0m [[4mSHORT-OPTION[24m]... [[4mSTRING[24m]...[m
+       [1mecho[0m [4mLONG-OPTION[24m[m
+[m
+[1mDESCRIPTION[0m[m
+       Echo the STRING(s) to standard output.[m
+[m
+       [1m-n[0m     do not output the trailing newline[m
+[m
+       [1m-e[0m     enable interpretation of backslash escapes[m
+[m
+       [1m-E[0m     disable interpretation of backslash escapes (default)[m
+[m
+       [1m--help[0m display this help and exit[m
+[m
+       [1m--version[0m[m
+              output version information and exit[m
+[m
+       If [1m-e[0m is in effect, the following sequences are recognized:[m
+[m
+       \\     backslash[m
+[m
+       \a     alert (BEL)[m
+[m
+       \b     backspace[m
+[m
+       \c     produce no further output[m
+[m
+       \e     escape[m
+[m
+[7m Manual page echo(1) line 7/77 39% (press h for help or q to quit)[27m[K[H[2J[H[m
+[1mSYNOPSIS[0m[m
+       [1mecho[0m [[4mSHORT-OPTION[24m]... [[4mSTRING[24m]...[m
+       [1mecho[0m [4mLONG-OPTION[24m[m
+[m
+[1mDESCRIPTION[0m[m
+       Echo the STRING(s) to standard output.[m
+[m
+       [1m-n[0m     do not output the trailing newline[m
+[m
+       [1m-e[0m     enable interpretation of backslash escapes[m
+[m
+       [1m-E[0m     disable interpretation of backslash escapes (default)[m
+[m
+       [1m--help[0m display this help and exit[m
+[m
+       [1m--version[0m[m
+              output version information and exit[m
+[m
+       If [1m-e[0m is in effect, the following sequences are recognized:[m
+[m
+       \\     backslash[m
+[m
+       \a     alert (BEL)[m
+[m
+       \b     backspace[m
+[m
+       \c     produce no further output[m
+[m
+       \e     escape[m
+[m
+       \f     form feed[m
+[7m Manual page echo(1) line 7/77 40% (press h for help or q to quit)[27m[K[H[2J[H[m
+[1mSYNOPSIS[0m[m
+       [1mecho[0m [[4mSHORT-OPTION[24m]... [[4mSTRING[24m]...[m
+       [1mecho[0m [4mLONG-OPTION[24m[m
+[m
+[1mDESCRIPTION[0m[m
+       Echo the STRING(s) to standard output.[m
+[m
+       [1m-n[0m     do not output the trailing newline[m
+[m
+       [1m-e[0m     enable interpretation of backslash escapes[m
+[m
+       [1m-E[0m     disable interpretation of backslash escapes (default)[m
+[m
+       [1m--help[0m display this help and exit[m
+[m
+       [1m--version[0m[m
+              output version information and exit[m
+[m
+       If [1m-e[0m is in effect, the following sequences are recognized:[m
+[m
+       \\     backslash[m
+[m
+       \a     alert (BEL)[m
+[m
+       \b     backspace[m
+[m
+       \c     produce no further output[m
+[m
+       \e     escape[m
+[m
+       \f     form feed[m
+[m
+[7m Manual page echo(1) line 7/77 40% (press h for help or q to quit)[27m[K[H[2J[H[m
+[1mSYNOPSIS[0m[m
+       [1mecho[0m [[4mSHORT-OPTION[24m]... [[4mSTRING[24m]...[m
+       [1mecho[0m [4mLONG-OPTION[24m[m
+[m
+[1mDESCRIPTION[0m[m
+       Echo the STRING(s) to standard output.[m
+[m
+       [1m-n[0m     do not output the trailing newline[m
+[m
+       [1m-e[0m     enable interpretation of backslash escapes[m
+[m
+       [1m-E[0m     disable interpretation of backslash escapes (default)[m
+[m
+       [1m--help[0m display this help and exit[m
+[m
+       [1m--version[0m[m
+              output version information and exit[m
+[m
+       If [1m-e[0m is in effect, the following sequences are recognized:[m
+[m
+       \\     backslash[m
+[m
+       \a     alert (BEL)[m
+[m
+       \b     backspace[m
+[m
+       \c     produce no further output[m
+[m
+       \e     escape[m
+[m
+       \f     form feed[m
+[m
+       \n     new line[m
+[7m Manual page echo(1) line 7/77 41% (press h for help or q to quit)[27m[K[H[2J[H[m
+[1mSYNOPSIS[0m[m
+       [1mecho[0m [[4mSHORT-OPTION[24m]... [[4mSTRING[24m]...[m
+       [1mecho[0m [4mLONG-OPTION[24m[m
+[m
+[1mDESCRIPTION[0m[m
+       Echo the STRING(s) to standard output.[m
+[m
+       [1m-n[0m     do not output the trailing newline[m
+[m
+       [1m-e[0m     enable interpretation of backslash escapes[m
+[m
+       [1m-E[0m     disable interpretation of backslash escapes (default)[m
+[m
+       [1m--help[0m display this help and exit[m
+[m
+       [1m--version[0m[m
+              output version information and exit[m
+[m
+       If [1m-e[0m is in effect, the following sequences are recognized:[m
+[m
+       \\     backslash[m
+[m
+       \a     alert (BEL)[m
+[m
+       \b     backspace[m
+[m
+       \c     produce no further output[m
+[m
+       \e     escape[m
+[m
+       \f     form feed[m
+[m
+       \n     new line[m
+[m
+       \r     carriage return[m
+[7m Manual page echo(1) line 7/77 42% (press h for help or q to quit)[27m[K[H[2J[H[m
+[1mSYNOPSIS[0m[m
+       [1mecho[0m [[4mSHORT-OPTION[24m]... [[4mSTRING[24m]...[m
+       [1mecho[0m [4mLONG-OPTION[24m[m
+[m
+[1mDESCRIPTION[0m[m
+       Echo the STRING(s) to standard output.[m
+[m
+       [1m-n[0m     do not output the trailing newline[m
+[m
+       [1m-e[0m     enable interpretation of backslash escapes[m
+[m
+       [1m-E[0m     disable interpretation of backslash escapes (default)[m
+[m
+       [1m--help[0m display this help and exit[m
+[m
+       [1m--version[0m[m
+              output version information and exit[m
+[m
+       If [1m-e[0m is in effect, the following sequences are recognized:[m
+[m
+       \\     backslash[m
+[m
+       \a     alert (BEL)[m
+[m
+       \b     backspace[m
+[m
+       \c     produce no further output[m
+[m
+       \e     escape[m
+[m
+       \f     form feed[m
+[m
+       \n     new line[m
+[m
+       \r     carriage return[m
+[m
+[7m Manual page echo(1) line 7/77 42% (press h for help or q to quit)[27m[K[H[2J[H[m
+[1mSYNOPSIS[0m[m
+       [1mecho[0m [[4mSHORT-OPTION[24m]... [[4mSTRING[24m]...[m
+       [1mecho[0m [4mLONG-OPTION[24m[m
+[m
+[1mDESCRIPTION[0m[m
+       Echo the STRING(s) to standard output.[m
+[m
+       [1m-n[0m     do not output the trailing newline[m
+[m
+       [1m-e[0m     enable interpretation of backslash escapes[m
+[m
+       [1m-E[0m     disable interpretation of backslash escapes (default)[m
+[m
+       [1m--help[0m display this help and exit[m
+[m
+       [1m--version[0m[m
+              output version information and exit[m
+[m
+       If [1m-e[0m is in effect, the following sequences are recognized:[m
+[m
+       \\     backslash[m
+[m
+       \a     alert (BEL)[m
+[m
+       \b     backspace[m
+[m
+       \c     produce no further output[m
+[m
+       \e     escape[m
+[m
+       \f     form feed[m
+[m
+       \n     new line[m
+[m
+       \r     carriage return[m
+[m
+       \t     horizontal tab[m
+[7m Manual page echo(1) line 7/77 43% (press h for help or q to quit)[27m[K[H[2J[H[m
+[1mSYNOPSIS[0m[m
+       [1mecho[0m [[4mSHORT-OPTION[24m]... [[4mSTRING[24m]...[m
+       [1mecho[0m [4mLONG-OPTION[24m[m
+[m
+[1mDESCRIPTION[0m[m
+       Echo the STRING(s) to standard output.[m
+[m
+       [1m-n[0m     do not output the trailing newline[m
+[m
+       [1m-e[0m     enable interpretation of backslash escapes[m
+[m
+       [1m-E[0m     disable interpretation of backslash escapes (default)[m
+[m
+       [1m--help[0m display this help and exit[m
+[m
+       [1m--version[0m[m
+              output version information and exit[m
+[m
+       If [1m-e[0m is in effect, the following sequences are recognized:[m
+[m
+       \\     backslash[m
+[m
+       \a     alert (BEL)[m
+[m
+       \b     backspace[m
+[m
+       \c     produce no further output[m
+[m
+       \e     escape[m
+[m
+       \f     form feed[m
+[m
+       \n     new line[m
+[m
+       \r     carriage return[m
+[m
+       \t     horizontal tab[m
+[m
+[7m Manual page echo(1) line 7/77 43% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       echo - display a line of text[m
+[40;1H[K[7m Manual page echo(1) line 6/77 43% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mNAME[0m[m
+[40;1H[K[7m Manual page echo(1) line 5/77 42% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[40;1H[K[7m Manual page echo(1) line 4/77 42% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HMECHO(1)                                             User Commands                                             ECHO(1)[m
+[40;1H[K[7m Manual page echo(1) line 1/77 41% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page echo(1) line 1/77 41% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page echo(1) line 1/77 41% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page echo(1) line 1/77 41% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page echo(1) line 1/77 41% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page echo(1) line 1/77 41% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       \r     carriage return[m
+[7m Manual page echo(1) line 4/77 42% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page echo(1) line 5/77 42% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       \t     horizontal tab[m
+[7m Manual page echo(1) line 6/77 43% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page echo(1) line 7/77 43% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       \v     vertical tab[m
+[7m Manual page echo(1) line 8/77 44% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page echo(1) line 9/77 44% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       \0NNN  byte with octal value NNN (1 to 3 digits)[m
+[7m Manual page echo(1) line 10/77 47% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page echo(1) line 11/77 47% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       \xHH   byte with hexadecimal value HH (1 to 2 digits)[m
+[7m Manual page echo(1) line 12/77 49% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page echo(1) line 13/77 49% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       NOTE:  your  shell  may  have  its  own  version of echo, which usually supersedes the version described here.[m
+[7m Manual page echo(1) line 14/77 54% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Please refer to your shell's documentation for details about the options it supports.[m
+[7m Manual page echo(1) line 15/77 58% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page echo(1) line 16/77 58% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       GNU  coreutils  online  help:  <http://www.gnu.org/software/coreutils/>  Report  echo  translation   bugs   to[m
+[7m Manual page echo(1) line 17/77 62% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       <http://translationproject.org/team/>[m
+[7m Manual page echo(1) line 18/77 64% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page echo(1) line 19/77 64% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mAUTHOR[0m[m
+[7m Manual page echo(1) line 20/77 65% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Written by Brian Fox and Chet Ramey.[m
+[7m Manual page echo(1) line 21/77 67% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page echo(1) line 22/77 67% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mCOPYRIGHT[0m[m
+[7m Manual page echo(1) line 23/77 68% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Copyright   ©   2013   Free   Software   Foundation,  Inc.   License  GPLv3+:  GNU  GPL  version  3  or  later[m
+[7m Manual page echo(1) line 24/77 73% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       <http://gnu.org/licenses/gpl.html>.[m
+[7m Manual page echo(1) line 25/77 74% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       This is free software: you are free to change and redistribute it.  There is NO WARRANTY, to the  extent  per‐[m
+[7m Manual page echo(1) line 26/77 79% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       mitted by law.[m
+[7m Manual page echo(1) line 27/77 80% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page echo(1) line 28/77 80% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mSEE[0m [1mALSO[0m[m
+[7m Manual page echo(1) line 29/77 81% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       The full documentation for [1mecho[0m is maintained as a Texinfo manual.  If the [1minfo[0m and [1mecho[0m programs are properly[m
+[7m Manual page echo(1) line 30/77 87% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       installed at your site, the command[m
+[7m Manual page echo(1) line 31/77 89% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page echo(1) line 32/77 89% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              [1minfo[0m [1mcoreutils[0m [1m'echo[0m [1minvocation'[0m[m
+[7m Manual page echo(1) line 33/77 93% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page echo(1) line 34/77 93% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       should give you access to the complete manual.[m
+[7m Manual page echo(1) line 35/77 95% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page echo(1) line 36/77 95% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[KGNU coreutils 8.22                                  November 2020                                             ECHO(1)[m
+[7m Manual page echo(1) line 37/77 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page echo(1) line 37/77 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page echo(1) line 37/77 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page echo(1) line 37/77 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page echo(1) line 37/77 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page echo(1) line 37/77 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page echo(1) line 37/77 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page echo(1) line 37/77 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page echo(1) line 37/77 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page echo(1) line 37/77 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page echo(1) line 37/77 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page echo(1) line 37/77 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page echo(1) line 37/77 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page echo(1) line 37/77 (END) (press h for help or q to quit)[27m[K[K[K[7m Manual page echo(1) line 37/77 (END) (press h for help or q to quit)[27m[K[K[?1l>[?1049l]0;elin11@gsuad.gsu.edu@snowball:~/csc3320[elin11@gsuad.gsu.edu@snowball csc3320]$ echo ":[KWelcome to UNi[KIX"
+Welcome to UNIX
+]0;elin11@gsuad.gsu.edu@snowball:~/csc3320[elin11@gsuad.gsu.edu@snowball csc3320]$ echo "w[KWelcome to Unix"[K[K[K[KNIX!"
+bash: !": event not found
+[elin11@gsuad.gsu.edu@snowball csc3320]$ ls
+[0m[38;5;27mcsc3320_elin11_song.txt[0m
+]0;elin11@gsuad.gsu.edu@snowball:~/csc3320[elin11@gsuad.gsu.edu@snowball csc3320]$ echo [K[K[K[K[Kman echo
+[?1049h[?1h=ECHO(1)                                             User Commands                                             ECHO(1)[m
+[m
+[1mNAME[0m[m
+       echo - display a line of text[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mecho[0m [[4mSHORT-OPTION[24m]... [[4mSTRING[24m]...[m
+       [1mecho[0m [4mLONG-OPTION[24m[m
+[m
+[1mDESCRIPTION[0m[m
+       Echo the STRING(s) to standard output.[m
+[m
+       [1m-n[0m     do not output the trailing newline[m
+[m
+       [1m-e[0m     enable interpretation of backslash escapes[m
+[m
+       [1m-E[0m     disable interpretation of backslash escapes (default)[m
+[m
+       [1m--help[0m display this help and exit[m
+[m
+       [1m--version[0m[m
+              output version information and exit[m
+[m
+       If [1m-e[0m is in effect, the following sequences are recognized:[m
+[m
+       \\     backslash[m
+[m
+       \a     alert (BEL)[m
+[m
+       \b     backspace[m
+[m
+       \c     produce no further output[m
+[m
+       \e     escape[m
+[m
+       \f     form feed[m
+[m
+       \n     new line[m
+[m
+[7m Manual page echo(1) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l]0;elin11@gsuad.gsu.edu@snowball:~/csc3320[elin11@gsuad.gsu.edu@snowball csc3320]$ echo "Welcome to UNIX!"
+bash: !": event not found
+[elin11@gsuad.gsu.edu@snowball csc3320]$ echo "Welcome to UNIX\!"
+Welcome to UNIX\!
+]0;elin11@gsuad.gsu.edu@snowball:~/csc3320[elin11@gsuad.gsu.edu@snowball csc3320]$ set +H
+]0;elin11@gsuad.gsu.edu@snowball:~/csc3320[elin11@gsuad.gsu.edu@snowball csc3320]$ echo "Welcome to UNIX!"
+Welcome to UNIX!
+]0;elin11@gsuad.gsu.edu@snowball:~/csc3320[elin11@gsuad.gsu.edu@snowball csc3320]$ exit
+exit
+
+Script done on Tue 21 Jan 2025 03:39:16 PM EST

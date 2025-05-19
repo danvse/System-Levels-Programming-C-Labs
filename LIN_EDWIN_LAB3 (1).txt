@@ -1,0 +1,190 @@
+Script started on Tue 04 Feb 2025 02:16:22 PM EST
+]0;elin11@gsuad.gsu.edu@snowball:~ [?1034h[elin11@gsuad.gsu.edu@snowball ~]$ vi [K lab3.c
+[31msearch hit BOTTOM, continuing at TOP[m
+[97m[41mE486: Pattern not found: *[m[30;27H[K[30;103H0,0-1[9CAll[1;1H[?12l[?25h    [?25l[30;1H[1m-- INSERT --[m[30;13H[K[30;103H2,1[11CAll[2;1H world
+
+[94m~                                                                                                                       [m[30;103H4,19[4;19H[?12l[?25h[?25l[4;10H[35m<[mstdio.h}
+ hello world
+#include [m[31m<stdio.h>[m[4;19H[K[5;1H[32mint[m main ([32mint[m argc, [32mchar[m [103m*[margv[]) {[5;36H[K[6;1Hprintf([31m"hello world.[m[35m\
+return
+
+
+} hello world printf([31m"hello world.
+
+[1]+  Stopped                 vim lab3.c
+]0;elin11@gsuad.gsu.edu@snowball:~ [elin11@gsuad.gsu.edu@snowball ~]$ cat v[Klab3.c
+cat: lab3.c: No such file or directory
+]0;elin11@gsuad.gsu.edu@snowball:~ [elin11@gsuad.gsu.edu@snowball ~]$ vi lab3.c
+[?1049h[?1h=[2;1H▽[6n[2;1H  [1;1H]11;? [1;30r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[30;1HE325: ATTENTION
+Found a swap file by the name ".lab3.c.swp"
+[10Cowned by: elin11@gsuad.gsu.edu   dated: Tue Feb  4 14:18:39 2025
+[9Cfile name: ~elin11@gsuad.gsu.edu/lab3.c
+[10Cmodified: YES
+[9Cuser name: elin11@gsuad.gsu.edu   host name: snowball.cs.gsu.edu
+[8Cprocess ID: 7551 (still running)
+While opening file "lab3.c"
+
+(1) Another program may be editing the same file.  If this is the case,
+    be careful not to end up with two different instances of the same
+    file when making changes.  Quit, or continue with caution.
+(2) An edit session for this file crashed.
+    If this is the case, use ":recover" or "vim -r lab3.c"
+    to recover the changes (see ":help recovery").
+    If you did this already, delete the swap file ".lab3.c.swp"
+    to avoid this message.
+
+Swap file ".lab3.c.swp" already exists!
+[O]pen Read-Only, (E)dit anyway, (R)ecover, (Q)uit, (A)bort:[?12l[?25h[30;1H[K[?25l[30;1H"lab3.c" [New File]
+
+[?1l>[?12l[?25h[?1049l]0;elin11@gsuad.gsu.edu@snowball:~ [elin11@gsuad.gsu.edu@snowball ~]$ l[Kcat lab.[K3.c
+cat: lab3.c: No such file or directory
+]0;elin11@gsuad.gsu.edu@snowball:~ [elin11@gsuad.gsu.edu@snowball ~]$ vi lab3.c
+[?1049h[?1h=[2;1H▽[6n[2;1H  [1;1H]11;? [1;30r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[30;1HE325: ATTENTION
+Found a swap file by the name ".lab3.c.swp"
+[10Cowned by: elin11@gsuad.gsu.edu   dated: Tue Feb  4 14:18:39 2025
+[9Cfile name: ~elin11@gsuad.gsu.edu/lab3.c
+[10Cmodified: YES
+[9Cuser name: elin11@gsuad.gsu.edu   host name: snowball.cs.gsu.edu
+[8Cprocess ID: 7551 (still running)
+While opening file "lab3.c"
+
+(1) Another program may be editing the same file.  If this is the case,
+    be careful not to end up with two different instances of the same
+    file when making changes.  Quit, or continue with caution.
+(2) An edit session for this file crashed.
+    If this is the case, use ":recover" or "vim -r lab3.c"
+    to recover the changes (see ":help recovery").
+    If you did this already, delete the swap file ".lab3.c.swp"
+    to avoid this message.
+
+Swap file ".lab3.c.swp" already exists!
+[O]pen Read-Only, (E)dit anyway, (R)ecover, (Q)uit, (A)bort:[?12l[?25h[30;1H[K[?25l[30;1H"lab3.c" [New File][>c[2;1H[94m~                                                                                                                       
+[?1l>[?1049l
+[2]+  Stopped                 vim lab3.c
+]0;elin11@gsuad.gsu.edu@snowball:~ [elin11@gsuad.gsu.edu@snowball ~]$ vi lab.c[K[K3.c
+[?1049h[?1h=[2;1H▽[6n[2;1H  [1;1H]11;? [1;30r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[30;1HE325: ATTENTION
+Found a swap file by the name ".lab3.c.swp"
+[10Cowned by: elin11@gsuad.gsu.edu   dated: Tue Feb  4 14:18:39 2025
+[9Cfile name: ~elin11@gsuad.gsu.edu/lab3.c
+[10Cmodified: YES
+[9Cuser name: elin11@gsuad.gsu.edu   host name: snowball.cs.gsu.edu
+[8Cprocess ID: 7551 (still running)
+While opening file "lab3.c"
+
+(1) Another program may be editing the same file.  If this is the case,
+    be careful not to end up with two different instances of the same
+    file when making changes.  Quit, or continue with caution.
+(2) An edit session for this file crashed.
+    If this is the case, use ":recover" or "vim -r lab3.c"
+    to recover the changes (see ":help recovery").
+    If you did this already, delete the swap file ".lab3.c.swp"
+    to avoid this message.
+
+Swap file ".lab3.c.swp" already exists!
+[O]pen Read-Only, (E)dit anyway, (R)ecover, (Q)uit, (A)bort:[?12l[?25h[30;1H[K[?25l[30;1H"lab3.c" 
+
+
+
+[?1l>[?12l[?25h[?1049l]0;elin11@gsuad.gsu.edu@snowball:~ [elin11@gsuad.gsu.edu@snowball ~]$ cat lab3/c[K[K.c
+/*
+ hello world
+ */
+
+#include <stdio.h>
+
+int main (int argc, char *argv[]) {
+
+	printf("hello world.\n");
+	
+	return 0;
+]0;elin11@gsuad.gsu.edu@snowball:~ [elin11@gsuad.gsu.edu@snowball ~]$ ggc -i[Kp [K[Ko lab3.v[Kc
+bash: ggc: command not found
+]0;elin11@gsuad.gsu.edu@snowball:~ [elin11@gsuad.gsu.edu@snowball ~]$ gcc -o lab3.c
+gcc: fatal error: no input files
+compilation terminated.
+]0;elin11@gsuad.gsu.edu@snowball:~ [elin11@gsuad.gsu.edu@snowball ~]$ gcc -o lab3.c
+gcc: fatal error: no input files
+compilation terminated.
+]0;elin11@gsuad.gsu.edu@snowball:~ [elin11@gsuad.gsu.edu@snowball ~]$ ./lab3.c
+bash: ./lab3.c: Permission denied
+]0;elin11@gsuad.gsu.edu@snowball:~ [elin11@gsuad.gsu.edu@snowball ~]$  ./lab3.c[K[K[K3
+bash: ./lab3: No such file or directory
+]0;elin11@gsuad.gsu.edu@snowball:~ [elin11@gsuad.gsu.edu@snowball ~]$ ls
+[0m[38;5;27m3320[0m          [38;5;27mcsc[0m      [38;5;34mcsc3320.txt[0m  file2.txt  [38;5;27mlabs[0m      Lin_Edwin_Lab01.txt
+combined.txt  [38;5;27mcsc3320[0m  file1.txt    lab3.c     [38;5;27mlectures[0m  typescript
+]0;elin11@gsuad.gsu.edu@snowball:~ [elin11@gsuad.gsu.edu@snowball ~]$ ls./lab3.cgcc -o lab3.c[C[1@ [1@l[1@a[1@b[1@3[1@.[1@c[C[C[C[C[C[C[C[C[C[C[K[K
+[01m[Klab3.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Klab3.c:11:2:[m[K [01;31m[Kerror: [m[Kexpected declaration or statement at end of input
+  return 0;
+[01;32m[K  ^[m[K
+]0;elin11@gsuad.gsu.edu@snowball:~ [elin11@gsuad.gsu.edu@snowball ~]$ vi lab3.c
+[?1049h[?1h=[2;1H▽[6n[2;1H  [1;1H]11;? [1;30r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[30;1HE325: ATTENTION
+Found a swap file by the name ".lab3.c.swp"
+[10Cowned by: elin11@gsuad.gsu.edu   dated: Tue Feb  4 14:18:39 2025
+[9Cfile name: ~elin11@gsuad.gsu.edu/lab3.c
+[10Cmodified: YES
+[9Cuser name: elin11@gsuad.gsu.edu   host name: snowball.cs.gsu.edu
+[8Cprocess ID: 7551 (still running)
+While opening file "lab3.c"
+[13Cdated: Tue Feb  4 14:22:53 2025
+      NEWER than swap file!
+
+(1) Another program may be editing the same file.  If this is the case,
+    be careful not to end up with two different instances of the same
+    file when making changes.  Quit, or continue with caution.
+(2) An edit session for this file crashed.
+    If this is the case, use ":recover" or "vim -r lab3.c"
+    to recover the changes (see ":help recovery").
+    If you did this already, delete the swap file ".lab3.c.swp"
+    to avoid this message.
+
+Swap file ".lab3.c.swp" already exists!
+[O]pen Read-Only, (E)dit anyway, (R)ecover, (Q)uit, (A)bort:[?12l[?25h[30;1H[K[?25l[30;1H"lab3.c" 11L, 118C[>c[1;1H[34m/[m[34m[103m*[m
+[34m hello world
+ [m[34m[103m*[m[34m/[m
+
+[35m#include [m[31m<stdio.h>[m
+
+[32mint[m main ([32mint[m argc, [32mchar[m [103m*[margv[]) {
+
+        printf([31m"hello world.[m[35m\n[m[31m"[m);
+[?25l"lab3.c" 12L, 120C written
+
+[?1l>[?12l[?25h[?1049l]0;elin11@gsuad.gsu.edu@snowball:~ [elin11@gsuad.gsu.edu@snowball ~]$ vi lab3.cgcc lab3.c -o lab3
+]0;elin11@gsuad.gsu.edu@snowball:~ [elin11@gsuad.gsu.edu@snowball ~]$ /[K./lab3[K[K[K[KLab3
+bash: ./Lab3: No such file or directory
+]0;elin11@gsuad.gsu.edu@snowball:~ [elin11@gsuad.gsu.edu@snowball ~]$ ./lab3
+hello world.
+]0;elin11@gsuad.gsu.edu@snowball:~ [elin11@gsuad.gsu.edu@snowball ~]$ cp lab3 lab3_modified.c
+]0;elin11@gsuad.gsu.edu@snowball:~ [elin11@gsuad.gsu.edu@snowball ~]$ vi lab3.[K_modified.c
+[?25l[97m[41mE492: Not an editor command: sq[m[71C1,1[11CTop[1;1H[?12l[?25h[?25l[30;1H[K[30;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h
+[?25l"lab3_modified.c" [converted] 3L, 8725C written
+
+[?1l>[?12l[?25h[?1049l]0;elin11@gsuad.gsu.edu@snowball:~ [elin11@gsuad.gsu.edu@snowball ~]$ mk[K[Kmv lab3_modified.c lab3_modified.txt
+]0;elin11@gsuad.gsu.edu@snowball:~ [elin11@gsuad.gsu.edu@snowball ~]$ c[Kls
+[0m[38;5;27m3320[0m          [38;5;27mcsc[0m      [38;5;34mcsc3320.txt[0m  file2.txt  lab3.c             [38;5;27mlabs[0m      Lin_Edwin_Lab01.txt
+combined.txt  [38;5;27mcsc3320[0m  file1.txt    [38;5;34mlab3[0m       [38;5;34mlab3_modified.txt[0m  [38;5;27mlectures[0m  typescript
+]0;elin11@gsuad.gsu.edu@snowball:~ [elin11@gsuad.gsu.edu@snowball ~]$ vi lab3_modified.txt
+[?1049h[?1h=[2;1H▽[6n[2;1H  [1;1H]11;? [1;30r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[30;1H"lab3_modified.txt" [converted] 3L, 8725C[>c[1;1H[34m^?[?25l"lab3_modified.txt" [converted] 3L, 8725C written
+
+[?1l>[?12l[?25h[?1049l]0;elin11@gsuad.gsu.edu@snowball:~ [elin11@gsuad.gsu.edu@snowball ~]$ rm lab3_modfied[K[K[K[Kified.txt
+]0;elin11@gsuad.gsu.edu@snowball:~ [elin11@gsuad.gsu.edu@snowball ~]$ ls
+[0m[38;5;27m3320[0m          [38;5;27mcsc[0m      [38;5;34mcsc3320.txt[0m  file2.txt  lab3.c  [38;5;27mlectures[0m             typescript
+combined.txt  [38;5;27mcsc3320[0m  file1.txt    [38;5;34mlab3[0m       [38;5;27mlabs[0m    Lin_Edwin_Lab01.txt
+]0;elin11@gsuad.gsu.edu@snowball:~ [elin11@gsuad.gsu.edu@snowball ~]$ cp -[2Plsrm lab3_modified.txtvi[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kmv lab3_modified.c lab3_modified.txt[18Pvi lab3_modified.c[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K  cp lab3.3[Kc lab3_modfi[K[Kified.c
+]0;elin11@gsuad.gsu.edu@snowball:~ [elin11@gsuad.gsu.edu@snowball ~]$ vi lab3_modfi[K[Kified.c
+[?1049h[?1h=[2;1H▽[6n[2;1H  [1;1H]11;? [1;30r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[30;1H"lab3_modified.c" 12L, 120C[>c[1;1H[34m/[m[34m[103m*[m
+[34m hello world
+ [m[34m[103m*[m[34m/[m
+
+[35m#include [m[31m<stdio.h>[m
+
+[32mint[m main ([32mint[m argc, [32mchar[m [103m*[margv[]) {[9;9Hprintf([31m"hello world.[m[35m\n[m[31m"[m);[11;9H[38;5;130mreturn[m [31m0[m;
+}        return 0;
+[?25l"lab3_modified.c" 12L, 170C written
+
+[?1l>[?12l[?25h[?1049l]0;elin11@gsuad.gsu.edu@snowball:~ [elin11@gsuad.gsu.edu@snowball ~]$ cat lab3_modified
+[?1l>[?12l[?25h[?1049l]0;elin11@gsuad.gsu.edu@snowball:~ [elin11@gsuad.gsu.edu@snowball ~]$ ./lab3_modified
+10H[35m<[mstdio.h}
+ hello world
+[C[C[CEdwin Lin is modifying the program

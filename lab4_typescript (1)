@@ -1,0 +1,176 @@
+Script started on Tue 11 Feb 2025 02:36:57 PM EST
+]0;elin11@gsuad.gsu.edu@snowball:~ [?1034h[elin11@gsuad.gsu.edu@snowball ~]$ stop
+[Kpwd
+/home/elin11
+]0;elin11@gsuad.gsu.edu@snowball:~ [elin11@gsuad.gsu.edu@snowball ~]$ cd
+]0;elin11@gsuad.gsu.edu@snowball:~ [elin11@gsuad.gsu.edu@snowball ~]$ cat lab4.c
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+    float x1, y1, x2, y2, distance;
+    printf("x1 = , y1 = ");
+    scanf("%f %f", &x1, &y1);
+
+    printf("x2 = , y2 = ");
+    scanf("%f %f", &x2, &y2);
+
+    distance = sqrt(pow((x2 - x1), 2) + pow((y2 - y1), 2));
+
+    printf("Distance between the points: %.2f units\n", distance);
+
+    return 0;
+}
+
+]0;elin11@gsuad.gsu.edu@snowball:~ [elin11@gsuad.gsu.edu@snowball ~]$ gcc lab4.c -o lab4.c -lm
+]0;elin11@gsuad.gsu.edu@snowball:~ [elin11@gsuad.gsu.edu@snowball ~]$ ./ lab4_testing
+x1 = , y1 = 
+x2 = , y2 = Distance between the points: 1.00 units
+]0;elin11@gsuad.gsu.edu@snowball:~ [elin11@gsuad.gsu.edu@snowball ~]$ 2
+x1 = , y1 = 2.3
+5.6
+x2 = , y2 = 5.6
+
+
+
+
+
+3
+Distance between the points: 4.20 units
+]0;elin11@gsuad.gsu.edu@snowball:~ [elin11@gsuad.gsu.edu@snowball ~]$ ./K/nanoK vim lab3_
+ ATTENTION
+Found a swap file by the name ".lab3.c.swp"
+[10Cowned by: elin11@gsuad.gsu.edu   dated: Tue Feb  4 14:48:12 2025
+[9Cfile name: ~elin11@gsuad.gsu.edu/lab3.c
+[10Cmodified: YES
+[9Cuser name: elin11@gsuad.gsu.edu   host name: snowball.cs.gsu.edu
+[8Cprocess ID: 7551
+While opening file "lab3.c"
+[13Cdated: Tue Feb  4 14:27:05 2025
+
+(1) Another program may be editing the same file.  If this is the case,
+    be careful not to end up with two different instances of the same
+    file when making changes.  Quit, or continue with caution.
+(2) An edit session for this file crashed.
+    If this is the case, use ":recover" or "vim -r lab3.c"
+    to recover the changes (see ":help recovery").
+    If you did this already, delete the swap file ".lab3.c.swp"
+    to avoid this message.
+
+Swap file ".lab3.c.swp" already exists!
+[O]pen Read-Only, (E)dit anyway, (R)ecover, (D)elete it, (Q)uit, (A)bort:
+hello world
+#include 
+<stdio.h>
+
+char
+margv
+printf
+hello world.
+      return
+[1]+  Stopped                 vim lab3.c
+0;elin11@gsuad.gsu.edu@snowball:~ [elin11@gsuad.gsu.edu@snowball ~]$ vim lab4.c
+1H"lab4.c" 18L,
+#include
+<stdio.h>
+#includem<math.h>
+[m main() {
+    [32mfloat[m x1, y1, x2, y2, distance;
+    printf([31m"x1 = , y1 = "[m);
+    scanf("x2 = , y2 = "[m);
+    scanf(distance = sqrt(pow((x2 - x1), ) + pow((y2 - y1),printf("Distance between the points: units m, distance)return
+}
+[2]+  Stopped                 vim lab4.c
+]0;elin11@gsuad.gsu.edu@snowball:~ [elin11@gsuad.gsu.edu@snowball ~]$ vim lab4.c
+1HE325: ATTENTION
+Found a swap file by the name ".lab4.c.swp"
+[10Cowned by: elin11@gsuad.gsu.edu   dated: Tue Feb 11 14:41:38 2025
+[9Cfile name: ~elin11@gsuad.gsu.edu/lab4.c
+[10Cmodified: YES
+[9Cuser name: elin11@gsuad.gsu.edu   host name: snowball.cs.gsu.edu
+[8Cprocess ID: 19131 (still running)
+While opening file "lab4.c"
+[13Cdated: Tue Feb 11 14:36:42 2025
+
+(1) Another program may be editing the same file.  If this is the case,
+    be careful not to end up with two different instances of the same
+    file when making changes.  Quit, or continue with caution.
+(2) An edit session for this file crashed.
+    If this is the case, use ":recover" or "vim -r lab4.c"
+    to recover the changes (see ":help recovery").
+    If you did this already, delete the swap file ".lab4.c.swp"
+    to avoid this message.
+
+Swap file ".lab4.c.swp" already exists!
+[O]pen Read-Only, (E)dit anyway, (R)ecover, (Q)uit, (A)bort:[?12l[?25h[30;1H[K[?25l[30;1H"lab4.c" 18L, 351C[>c[1;1H[35m#include [m[31m<stdio.h>[m
+[35m#include [m[31m<math.h>[m
+
+[m main() {
+    [32mfloat[m x1, y1, x2, y2, distance;
+    printf(x1 = , y1 = ";
+    scanf(printf([31m"x2 = , y2 = "[m);
+    scanf([31m"[m[35m%f[m[31m [m[35m%f[m[31m"[m, &x2, &y2);[11;1H[K[12;5Hdistance = sqrt(pow((x2 - x1), [31m2[m) + pow((y2 - y1), [31m2[m));[12;60H[K[13;10H[K[14;5Hprintf([31m"Distance between the points: [m[35m%.2f[m[31m units[m[35m\n[m[31m"[m, distance);[15;10H[K[16;5H[38;5;130mreturn[m [3]+  Stopped                 vim lab4.c
+]0;elin11@gsuad.gsu.edu@snowball:~ [elin11@gsuad.gsu.edu@snowball ~]$ vim lab4.c
+[?1049h[?1h=[2;1H▽[6n[2;1H  [1;1H]11;? [1;30r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[30;1HE325: ATTENTION
+Found a swap file by the name ".lab4.c.swp"
+[10Cowned by: elin11@gsuad.gsu.edu   dated: Tue Feb 11 14:41:38 2025
+[9Cfile name: ~elin11@gsuad.gsu.edu/lab4.c
+[10Cmodified: YES
+[9Cuser name: elin11@gsuad.gsu.edu   host name: snowball.cs.gsu.edu
+[8Cprocess ID: 19131 (still running)
+While opening file "lab4.c"
+[13Cdated: Tue Feb 11 14:36:42 2025
+
+(1) Another program may be editing the same file.  If this is the case,
+    be careful not to end up with two different instances of the same
+    file when making changes.  Quit, or continue with caution.
+(2) An edit session for this file crashed.
+    If this is the case, use ":recover" or "vim -r lab4.c"
+    to recover the changes (see ":help recovery").
+    If you did this already, delete the swap file ".lab4.c.swp"
+    to avoid this message.
+
+Swap file ".lab4.c.swp" already exists!
+[O]pen Read-Only, (E)dit anyway, (R)ecover, (Q)uit, (A)bort:[?12l[?25h[30;1H[K[?25l[30;1H"lab4.c" 18L,#include <stdio.h>
+#include [m[31m<math.h>[m
+
+[[m main() {
+    [float[m x1, y1, x2, y2, distance;
+    printf([31m"x1 = , y1 = "[m);
+    scanf([m, &x1, &y1);[9;5Hprintf([31m"x2 = , y2 = "[m);
+    scanf([m, &x2, &y2);[11;1H[K[12;5Hdistance = sqrt(pow((x2 - x1), [31m2[m) + pow((y2 - y1),printf([31m"Distance between the points: 
+
+[elin11@gsuad.gsu.edu@snowball ~]$ vim lab3.c
+
+[1]+  Stopped                 vim lab3.c
+[elin11@gsuad.gsu.edu@snowball ~]$ vim lab4.c
+
+[2]+  Stopped                 vim lab4.c
+[elin11@gsuad.gsu.edu@snowball ~]$ vim lab4.c
+
+[3]+  Stopped                 vim lab4.c
+[elin11@gsuad.gsu.edu@snowball ~]$ vim lab4.c
+[elin11@gsuad.gsu.edu@snowball ~]$ cat lab4.c
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+    float x1, y1, x2, y2, distance;
+    printf("Enter first point: ");
+    scanf("%f %f", &x1, &y1);
+
+    printf("Enter second point: ");
+    scanf("%f %f", &x2, &y2);
+
+    distance = sqrt(pow((x2 - x1), 2) + pow((y2 - y1), 2));
+
+    printf("Distance between the points: %.2f units\n", distance);
+
+    return 0;
+}
+
+[elin11@gsuad.gsu.edu@snowball ~]$ gcc lab4.c -o lab4_testing -lm
+[elin11@gsuad.gsu.edu@snowball ~]$ ./lab4_testing
+Enter first point: 2 3
+Enter second point: 5 6
+Distance between the points: 4.24 units
